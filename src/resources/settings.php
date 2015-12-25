@@ -16,7 +16,7 @@ $certPath = __DIR__ . "API/" . $certFile;
 $iwApiBaseUrl = 'https://api.myinwebo.com'; // DO NOT MODIFY
 //inWebo WSDL files
 $wsdlProvisioningFile = "Provisioning.wsdl";
-$wsdlProvisioningPath = __DIR__ . "/.API/" . $wsdlProvisioningFile;
+$wsdlProvisioningPath = __DIR__ . "API/" . $wsdlProvisioningFile;
 
 $wsdlAuthenticationFile = "Authentication.wsdl";
-$wsdlAuthenticationPath = __DIR__ . "/.API/" . $wsdlAuthenticationFile;
+$wsdlAuthenticationPath = __DIR__ . "API/" . $wsdlAuthenticationFile;
