@@ -1,0 +1,47 @@
+/* 
+    Created on : 23 juin 2014, 17:30:47
+    Author     : Emmanuel - inWebo Technologies
+*/
+
+body {
+    font-family: arial;
+    background: #ffffff;
+    font-size: 13px;
+    padding-top: 16px;
+    padding-left: 16px;
+}
+h1 {
+    font-size: 16px;
+    color: #c45600;
+}
+h2 {
+    font-size: 14px;
+}
+
+h3 {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 16px;
+}
+
+li {
+    margin-top: 6px;
+}
+
+a {
+    color: #28AA28;
+}
+
+p.copyright { font-size: 11px; }
+p.success { color: #28AA28; font-weight: bold; }
+p.error { color: red; font-weight: bold; }
+
+span.red { color: red; }
+
+input[type=text] {
+    width: 220px;
+}
+
