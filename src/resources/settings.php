@@ -10,7 +10,7 @@ $withErrorTrace = true; //Display errors
 $withRESTResultTrace = true; //Display REST call results
 //DO NOT MODIFY SETTINGS BELOW
 //Path to the certificate file
-$certPath = __DIR__ . "/.API/" . $certFile;
+$certPath = __DIR__ . "API/" . $certFile;
 
 //inWebo API URL
 $iwApiBaseUrl = 'https://api.myinwebo.com'; // DO NOT MODIFY
