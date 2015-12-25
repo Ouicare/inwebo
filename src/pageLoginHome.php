@@ -1,7 +1,7 @@
 <?php 
 
 //Main loading
-include_once './_loader.php'; 
+include_once '_loader.php'; 
 
 //Init vars
 $error = false;
@@ -21,7 +21,7 @@ if (!empty($postData)) {
 }
 
 //HTML Header
-include_once './template/_header.php';
+include_once 'template/_header.php';
 
 //Main content output
 print '<h1>inWebo API PHP Code Samples</h1>';
@@ -31,9 +31,9 @@ if (true === $error) {
     print $errorOccured;
 }
 
-print '<p><a href="./pageLoginCreate.php">Create a new user</a></p>';
+print '<p><a href="pageLoginCreate.php">Create a new user</a></p>';
 print '<p>Search a user (you may then edit or delete found users)</p>';
-include_once './_loginSearchForm.php';
+include_once '_loginSearchForm.php';
 
 //Handling loginSearch result
 if (false ===  $error && $loginSearch != '' && $loginSearch->n > 0) {
@@ -52,4 +52,4 @@ if (false ===  $error && $loginSearch != '' && $loginSearch->n > 0) {
 
 //Footer
 $homePath = "index.php";
-include_once './template/_footer.php';
+include_once 'template/_footer.php';

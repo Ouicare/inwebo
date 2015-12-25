@@ -1,7 +1,7 @@
 <?php 
 
 //Main loading
-include_once './_loader.php'; 
+include_once '_loader.php'; 
 
 //Init vars
 $error = false;
@@ -35,7 +35,7 @@ if (!empty($postData)) {
 }
 
 //HTML Header
-include_once './template/_header.php';
+include_once 'template/_header.php';
 
 //Main content output
 print '<h1>inWebo API PHP Code Samples</h1>';
@@ -50,11 +50,11 @@ if (true === $error) {
 } 
 
 if (true === $needsConfirm) {
-    include_once './_loginDeleteForm.php';
+    include_once '_loginDeleteForm.php';
 }
 
 //Footer
 $homePath = "index.php";
 $secondaryPath = "pageLoginHome.php";
 $secondaryPathName = "User Management";
-include_once './template/_footer.php';
+include_once 'template/_footer.php';

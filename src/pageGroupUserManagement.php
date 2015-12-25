@@ -1,7 +1,7 @@
 <?php 
 
 //Main loading
-include_once './_loader.php'; 
+include_once '_loader.php'; 
 
 //Init vars
 $error = false;
@@ -82,7 +82,7 @@ if (!empty($getData)) {
 }
 
 //HTML Header
-include_once './template/_header.php';
+include_once 'template/_header.php';
 
 //Main content output
 print '<h1>inWebo API PHP Code Samples</h1>';
@@ -139,5 +139,5 @@ if (false === $emptyServiceUserList) {
 $homePath = "index.php";
 $secondaryPath = "pageGroupHome.php";
 $secondaryPathName = "User Group Management";
-include_once './template/_footer.php';
+include_once 'template/_footer.php';
 

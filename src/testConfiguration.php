@@ -1,10 +1,10 @@
 <?php 
 
 //Main loading
-include_once './_loader.php'; 
+include_once '_loader.php'; 
 
 //HTML Header
-include_once './template/_header.php';
+include_once 'template/_header.php';
 
 //Main content output
 print '<h1>inWebo API PHP Configuration</h1>';
@@ -28,4 +28,4 @@ if ($errorConf === false) {
 
 //HTML Footer
 $homePath = "index.php";
-include_once './template/_footer.php';
+include_once 'template/_footer.php';

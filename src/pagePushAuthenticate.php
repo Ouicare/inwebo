@@ -1,7 +1,7 @@
 <?php 
 
 //Main loading
-include './_loader.php'; 
+include '_loader.php'; 
 
 $error = false;
 $success = false;
@@ -27,7 +27,7 @@ if (!empty($postData)) {
         } else {
             $success = true;
             $sessionId = $push['sessionId'];
-            $checkURL = './pushCheckResult.php?sessionId=' . $sessionId . '&login=' . $login;
+            $checkURL = 'pushCheckResult.php?sessionId=' . $sessionId . '&login=' . $login;
             $javascript = 1;
             $pushJavascript = 'pushListener.js';
         }
@@ -35,7 +35,7 @@ if (!empty($postData)) {
 }
 
 //HTML Header
-include './template/_header.php';
+include 'template/_header.php';
 
 //Main content output
 print '<h1>inWebo API PHP - Authentication with Mobile Notifications (Push)</h1>';
@@ -54,8 +54,8 @@ if (true === $success) {
     print '</div>';
 }
 
-include_once './_pushAuthenticateForm.php';
+include_once '_pushAuthenticateForm.php';
 
 //HTML Footer
 $homePath = "index.php";
-include './template/_footer.php';
+include 'template/_footer.php';

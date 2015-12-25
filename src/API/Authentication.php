@@ -12,19 +12,19 @@ namespace API;
 /**
  * Authenticate class
  */
-require_once './API/authenticate.php';
+require_once 'API/authenticate.php';
 /**
  * AuthenticateResponse class
  */
-require_once './API/authenticateResponse.php';
+require_once 'API/authenticateResponse.php';
 /**
  * AuthenticateWithIp class
  */
-require_once './API/authenticateWithIp.php';
+require_once 'API/authenticateWithIp.php';
 /**
  * AuthenticateWithIpResponse class
  */
-require_once './API/authenticateWithIpResponse.php';
+require_once 'API/authenticateWithIpResponse.php';
 
 class Authentication extends \SoapClient {
 

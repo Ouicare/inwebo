@@ -255,7 +255,7 @@ foreach($service['types'] as $type) {
   $code .= "/**\n";
   $code .= " * ".$type['class']." class\n";
   $code .= " */\n";
-  $code .= "require_once './API/".$type['class'].".php';\n";
+  $code .= "require_once 'API/".$type['class'].".php';\n";
 }
 
 $code .= "\n";

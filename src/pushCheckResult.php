@@ -1,7 +1,7 @@
 <?php
 
 //Main loading
-include './_loader.php'; 
+include '_loader.php'; 
 
 //Handle data
 $getData = $helpers->getGetData($_GET);

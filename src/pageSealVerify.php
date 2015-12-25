@@ -1,7 +1,7 @@
 <?php 
 
 //Main loading
-include './_loader.php'; 
+include '_loader.php'; 
 
 //Init vars
 $error = false;
@@ -26,7 +26,7 @@ if (!empty($postData)) {
 }
 
 //HTML Header
-include './template/_header.php';
+include 'template/_header.php';
 
 //Main content output
 print '<h1>inWebo API PHP - Data Sealing Verification (REST)</h1>';
@@ -40,8 +40,8 @@ if (true === $error) {
     print $errorOccured;
 } 
 
-include_once './_sealVerifyForm.php';
+include_once '_sealVerifyForm.php';
 
 //HTML Footer
 $homePath = "index.php";
-include './template/_footer.php';
+include 'template/_footer.php';
