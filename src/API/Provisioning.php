@@ -12,223 +12,223 @@ namespace API;
 /**
  * loginsQueryByGroup class
  */
-require_once 'API/loginsQueryByGroup.php';
+require_once 'loginsQueryByGroup.php';
 /**
  * loginsQueryByGroupResponse class
  */
-require_once 'API/loginsQueryByGroupResponse.php';
+require_once 'loginsQueryByGroupResponse.php';
 /**
  * LoginsQueryResult class
  */
-require_once 'API/LoginsQueryResult.php';
+require_once 'LoginsQueryResult.php';
 /**
  * loginsQuery class
  */
-require_once 'API/loginsQuery.php';
+require_once 'loginsQuery.php';
 /**
  * loginsQueryResponse class
  */
-require_once 'API/loginsQueryResponse.php';
+require_once 'loginsQueryResponse.php';
 /**
  * loginSearch class
  */
-require_once 'API/loginSearch.php';
+require_once 'loginSearch.php';
 /**
  * loginSearchResponse class
  */
-require_once 'API/loginSearchResponse.php';
+require_once 'loginSearchResponse.php';
 /**
  * LoginSearchResult class
  */
-require_once 'API/LoginSearchResult.php';
+require_once 'LoginSearchResult.php';
 /**
  * loginQuery class
  */
-require_once 'API/loginQuery.php';
+require_once 'loginQuery.php';
 /**
  * loginQueryResponse class
  */
-require_once 'API/loginQueryResponse.php';
+require_once 'loginQueryResponse.php';
 /**
  * LoginQueryResult class
  */
-require_once 'API/LoginQueryResult.php';
+require_once 'LoginQueryResult.php';
 /**
  * loginCreate class
  */
-require_once 'API/loginCreate.php';
+require_once 'loginCreate.php';
 /**
  * loginCreateResponse class
  */
-require_once 'API/loginCreateResponse.php';
+require_once 'loginCreateResponse.php';
 /**
  * LoginCreateResult class
  */
-require_once 'API/LoginCreateResult.php';
+require_once 'LoginCreateResult.php';
 /**
  * loginGetCodeFromLink class
  */
-require_once 'API/loginGetCodeFromLink.php';
+require_once 'loginGetCodeFromLink.php';
 /**
  * loginGetCodeFromLinkResponse class
  */
-require_once 'API/loginGetCodeFromLinkResponse.php';
+require_once 'loginGetCodeFromLinkResponse.php';
 /**
  * loginGetInfoFromLink class
  */
-require_once 'API/loginGetInfoFromLink.php';
+require_once 'loginGetInfoFromLink.php';
 /**
  * loginGetInfoFromLinkResponse class
  */
-require_once 'API/loginGetCodeFromLinkResponse.php';
+require_once 'loginGetCodeFromLinkResponse.php';
 /**
  * loginUpdate class
  */
-require_once 'API/loginUpdate.php';
+require_once 'loginUpdate.php';
 /**
  * loginUpdateResponse class
  */
-require_once 'API/loginUpdateResponse.php';
+require_once 'loginUpdateResponse.php';
 /**
  * loginRestore class
  */
-require_once 'API/loginRestore.php';
+require_once 'loginRestore.php';
 /**
  * loginRestoreResponse class
  */
-require_once 'API/loginRestoreResponse.php';
+require_once 'loginRestoreResponse.php';
 /**
  * loginResetPwd class
  */
-require_once 'API/loginResetPwd.php';
+require_once 'loginResetPwd.php';
 /**
  * loginResetPwdResponse class
  */
-require_once 'API/loginResetPwdResponse.php';
+require_once 'loginResetPwdResponse.php';
 /**
  * loginResetPwdExtended class
  */
-require_once 'API/loginResetPwdExtended.php';
+require_once 'loginResetPwdExtended.php';
 /**
  * loginResetPwdExtendedResponse class
  */
-require_once 'API/loginResetPwdExtendedResponse.php';
+require_once 'loginResetPwdExtendedResponse.php';
 /**
  * loginAddDevice class
  */
-require_once 'API/loginAddDevice.php';
+require_once 'loginAddDevice.php';
 /**
  * loginAddDeviceResponse class
  */
-require_once 'API/loginAddDeviceResponse.php';
+require_once 'loginAddDeviceResponse.php';
 /**
  * loginDeleteTool class
  */
-require_once 'API/loginDeleteTool.php';
+require_once 'loginDeleteTool.php';
 /**
  * loginDeleteToolResponse class
  */
-require_once 'API/loginDeleteToolResponse.php';
+require_once 'loginDeleteToolResponse.php';
 /**
  * loginDelete class
  */
-require_once 'API/loginDelete.php';
+require_once 'loginDelete.php';
 /**
  * loginDeleteResponse class
  */
-require_once 'API/loginDeleteResponse.php';
+require_once 'loginDeleteResponse.php';
 /**
  * loginSendByMail class
  */
-require_once 'API/loginSendByMail.php';
+require_once 'loginSendByMail.php';
 /**
  * loginSendByMailResponse class
  */
-require_once 'API/loginSendByMailResponse.php';
+require_once 'loginSendByMailResponse.php';
 /**
  * loginActivateCode class
  */
-require_once 'API/loginActivateCode.php';
+require_once 'loginActivateCode.php';
 /**
  * loginActivateCodeResponse class
  */
-require_once 'API/loginActivateCodeResponse.php';
+require_once 'loginActivateCodeResponse.php';
 /**
  * loginResetPINErrorCounter class
  */
-require_once 'API/loginResetPINErrorCounter.php';
+require_once 'loginResetPINErrorCounter.php';
 /**
  * loginResetPINErrorCounterResponse class
  */
-require_once 'API/loginResetPINErrorCounterResponse.php';
+require_once 'loginResetPINErrorCounterResponse.php';
 /**
  * IWDS_check class
  */
-require_once 'API/IWDS_check.php';
+require_once 'IWDS_check.php';
 /**
  * IWDS_checkResponse class
  */
-require_once 'API/IWDS_checkResponse.php';
+require_once 'IWDS_checkResponse.php';
 /**
  * serviceGroupsQuery class
  */
-require_once 'API/serviceGroupsQuery.php';
+require_once 'serviceGroupsQuery.php';
 /**
  * serviceGroupsQueryResponse class
  */
-require_once 'API/serviceGroupsQueryResponse.php';
+require_once 'serviceGroupsQueryResponse.php';
 /**
  * ServiceGroupsQueryResult class
  */
-require_once 'API/ServiceGroupsQueryResult.php';
+require_once 'ServiceGroupsQueryResult.php';
 /**
  * groupAccountQuery class
  */
-require_once 'API/groupAccountQuery.php';
+require_once 'groupAccountQuery.php';
 /**
  * groupAccountQueryResponse class
  */
-require_once 'API/groupAccountQueryResponse.php';
+require_once 'groupAccountQueryResponse.php';
 /**
  * GroupAccountQueryResult class
  */
-require_once 'API/GroupAccountQueryResult.php';
+require_once 'GroupAccountQueryResult.php';
 /**
  * groupAccountCreate class
  */
-require_once 'API/groupAccountCreate.php';
+require_once 'groupAccountCreate.php';
 /**
  * groupAccountCreateResponse class
  */
-require_once 'API/groupAccountCreateResponse.php';
+require_once 'groupAccountCreateResponse.php';
 /**
  * groupAccountUpdate class
  */
-require_once 'API/groupAccountUpdate.php';
+require_once 'groupAccountUpdate.php';
 /**
  * groupAccountUpdateResponse class
  */
-require_once 'API/groupAccountUpdateResponse.php';
+require_once 'groupAccountUpdateResponse.php';
 /**
  * groupAccountDelete class
  */
-require_once 'API/groupAccountDelete.php';
+require_once 'groupAccountDelete.php';
 /**
  * groupAccountDeleteResponse class
  */
-require_once 'API/groupAccountDeleteResponse.php';
+require_once 'groupAccountDeleteResponse.php';
 /**
  * loginGetGroups class
  */
-require_once 'API/loginGetGroups.php';
+require_once 'loginGetGroups.php';
 /**
  * loginGetGroupsResponse class
  */
-require_once 'API/loginGetGroupsResponse.php';
+require_once 'loginGetGroupsResponse.php';
 /**
  * LoginGetGroupsResult class
  */
-require_once 'API/LoginGetGroupsResult.php';
+require_once 'LoginGetGroupsResult.php';
 
 class Provisioning extends \SoapClient {
 
