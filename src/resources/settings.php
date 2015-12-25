@@ -10,13 +10,13 @@ $withErrorTrace = true; //Display errors
 $withRESTResultTrace = true; //Display REST call results
 //DO NOT MODIFY SETTINGS BELOW
 //Path to the certificate file
-$certPath = __DIR__ . "API/" . $certFile;
+$certPath = __DIR__ . "/API/" . $certFile;
 
 //inWebo API URL
 $iwApiBaseUrl = 'https://api.myinwebo.com'; // DO NOT MODIFY
 //inWebo WSDL files
 $wsdlProvisioningFile = "Provisioning.wsdl";
-$wsdlProvisioningPath = __DIR__ . "API/" . $wsdlProvisioningFile;
+$wsdlProvisioningPath = __DIR__ . "/API/" . $wsdlProvisioningFile;
 
 $wsdlAuthenticationFile = "Authentication.wsdl";
-$wsdlAuthenticationPath = __DIR__ . "API/" . $wsdlAuthenticationFile;
+$wsdlAuthenticationPath = __DIR__ . "/API/" . $wsdlAuthenticationFile;
