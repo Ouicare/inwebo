@@ -1,7 +1,7 @@
 {
     "name": "ouicare/inwebo",
     "license": "MIT",
-    "type": "php",
+    "type": "project",
     "description": "In-Webo Web Services API PHP Development Kit V2.0.1",
     "keywords": ["inwebo", "2FA", "OTP"],
     "homepage": "https://github.com/Ouicare/inwebo",
