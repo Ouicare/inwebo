@@ -12,6 +12,7 @@
 namespace Ouicare\InWebo;
 
 use Ouicare\InWebo\API\Authentication;
+use Ouicare\InWebo\API\Provisioning;
 
 /**
  * Porting the apiFunctions from the inWebo API PHP Kit to be used in Symfony2
@@ -38,7 +39,7 @@ class InWebo {
         $this->apiCertificate = $certPath;
         $this->apiCertificatePassphrase = $certPassphrase;
         $this->authentication = new Authentication($wsdlAuthenticationPath, array('local_cert' => $this->apiCertificate, 'passphrase' => $this->apiCertificatePassphrase));
-        $this->provisioning = new API\Provisioning($wsdlProvisioningPath, array('local_cert' => $this->apiCertificate, 'passphrase' => $this->apiCertificatePassphrase));
+        $this->provisioning = new Provisioning($wsdlProvisioningPath, array('local_cert' => $this->apiCertificate, 'passphrase' => $this->apiCertificatePassphrase));
         $this->iwApiBaseUrl = $iwApiBaseUrl;
         $this->withErrorTrace = $withErrorTrace;
         $this->withRESTResultTrace = $withRESTResultTrace;
