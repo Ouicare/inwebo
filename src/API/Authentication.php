@@ -1,31 +1,32 @@
 <?php
 
 /**
- * Authentication class file
  *
  * @author    Emmanuel NINET
+ * @author Anis Marrouchi <anismarrouchi@hotmail.com>
  * @copyright 2014 inWebo Technologies
- * @package   PHP API Samples
+ * @package   InWebo PHP API
+ * @license http://http://opensource.org/licenses/mit-license.php MIT
  */
 
-namespace API;
+namespace Ouicare\InWebo\API;
 
 /**
  * Authenticate class
  */
-require_once 'authenticate.php';
+use Ouicare\InWebo\API\Authenticate;
 /**
  * AuthenticateResponse class
  */
-require_once 'authenticateResponse.php';
+use Ouicare\InWebo\API\AuthenticateResponse;
 /**
  * AuthenticateWithIp class
  */
-require_once 'authenticateWithIp.php';
+use Ouicare\InWebo\API\AuthenticateWithIp;
 /**
  * AuthenticateWithIpResponse class
  */
-require_once 'authenticateWithIpResponse.php';
+use Ouicare\InWebo\API\AuthenticateWithIpResponse;
 
 class Authentication extends \SoapClient {
 

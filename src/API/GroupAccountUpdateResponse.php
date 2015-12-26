@@ -11,13 +11,9 @@
 
 namespace Ouicare\InWebo\API;
 
-class LoginCreateResult {
+class GroupAccountUpdateResponse {
     /* string */
 
-    public $err;
-    /* string */
-    public $code;
-    /* long */
-    public $id;
+    public $groupAccountUpdateReturn;
 
 }

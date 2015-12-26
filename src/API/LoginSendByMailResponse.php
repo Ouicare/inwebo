@@ -11,13 +11,9 @@
 
 namespace Ouicare\InWebo\API;
 
-class LoginCreateResult {
+class LoginSendByMailResponse {
     /* string */
 
-    public $err;
-    /* string */
-    public $code;
-    /* long */
-    public $id;
+    public $loginSendByMailReturn;
 
 }

@@ -11,13 +11,15 @@
 
 namespace Ouicare\InWebo\API;
 
-class LoginCreateResult {
+class AuthenticateWithIp {
     /* string */
 
-    public $err;
+    public $userId;
     /* string */
-    public $code;
-    /* long */
-    public $id;
+    public $serviceId;
+    /* string */
+    public $token;
+    /* string */
+    public $ip;
 
 }

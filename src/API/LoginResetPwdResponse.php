@@ -11,13 +11,9 @@
 
 namespace Ouicare\InWebo\API;
 
-class LoginCreateResult {
+class LoginResetPwdResponse {
     /* string */
 
-    public $err;
-    /* string */
-    public $code;
-    /* long */
-    public $id;
+    public $loginResetPwdReturn;
 
 }

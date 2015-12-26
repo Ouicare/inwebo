@@ -11,13 +11,9 @@
 
 namespace Ouicare\InWebo\API;
 
-class LoginCreateResult {
-    /* string */
+class LoginSearchResponse {
+    /* LoginSearchResult */
 
-    public $err;
-    /* string */
-    public $code;
-    /* long */
-    public $id;
+    public $loginSearchReturn;
 
 }

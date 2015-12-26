@@ -1,20 +1,25 @@
 <?php
+
 /**
- * 
+ *
  * @author    Emmanuel NINET
+ * @author Anis Marrouchi <anismarrouchi@hotmail.com>
  * @copyright 2014 inWebo Technologies
- * @package   PHP API Samples
+ * @package   InWebo PHP API
+ * @license http://http://opensource.org/licenses/mit-license.php MIT
  */
-namespace API;
+
+namespace Ouicare\InWebo\API;
 
 class GroupAccountQueryResult {
-  /* string */
-  public $err;
-  /* long */
-  public $roleid;
-  /* long */
-  public $loginid;
-  /* long */
-  public $groupid;
-}
+    /* string */
 
+    public $err;
+    /* long */
+    public $roleid;
+    /* long */
+    public $loginid;
+    /* long */
+    public $groupid;
+
+}

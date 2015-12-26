@@ -11,13 +11,11 @@
 
 namespace Ouicare\InWebo\API;
 
-class LoginCreateResult {
-    /* string */
-
-    public $err;
-    /* string */
-    public $code;
+class LoginQuery {
     /* long */
-    public $id;
+
+    public $userid;
+    /* long */
+    public $loginid;
 
 }

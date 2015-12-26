@@ -11,13 +11,9 @@
 
 namespace Ouicare\InWebo\API;
 
-class LoginCreateResult {
+class LoginGetInfoFromLink {
     /* string */
 
-    public $err;
-    /* string */
     public $code;
-    /* long */
-    public $id;
 
 }

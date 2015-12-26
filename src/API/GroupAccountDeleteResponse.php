@@ -11,13 +11,9 @@
 
 namespace Ouicare\InWebo\API;
 
-class LoginCreateResult {
+class GroupAccountDeleteResponse {
     /* string */
 
-    public $err;
-    /* string */
-    public $code;
-    /* long */
-    public $id;
+    public $groupAccountDeleteReturn;
 
 }

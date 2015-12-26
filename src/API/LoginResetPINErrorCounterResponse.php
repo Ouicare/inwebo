@@ -11,13 +11,9 @@
 
 namespace Ouicare\InWebo\API;
 
-class LoginCreateResult {
+class LoginResetPINErrorCounterResponse {
     /* string */
 
-    public $err;
-    /* string */
-    public $code;
-    /* long */
-    public $id;
+    public $loginResetPINErrorCounterReturn;
 
 }

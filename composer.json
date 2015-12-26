@@ -12,7 +12,9 @@
         }
     ],
     "autoload": {
-        "files": ["src/_loader.php"]
+        "psr-4": {
+            "Ouicare\\InWebo\\": "src/Ouicare/InWebo/"
+        }
 
     },
     "require": {

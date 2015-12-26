@@ -11,22 +11,14 @@
 
 namespace Ouicare\InWebo\API;
 
-class LoginSearchResult {
-    /* string */
-
-    public $err;
-    /* int */
-    public $n;
+class LoginCreate {
     /* long */
-    public $id;
+
+    public $userid;
+    /* long */
+    public $serviceid;
     /* string */
     public $login;
-    /* string */
-    public $code;
-    /* long */
-    public $status;
-    /* long */
-    public $role;
     /* string */
     public $firstname;
     /* string */
@@ -35,13 +27,17 @@ class LoginSearchResult {
     public $mail;
     /* string */
     public $phone;
+    /* long */
+    public $status;
+    /* long */
+    public $role;
+    /* long */
+    public $access;
+    /* long */
+    public $codetype;
+    /* string */
+    public $lang;
     /* string */
     public $extrafields;
-    /* long */
-    public $createdby;
-    /* long */
-    public $activation_status;
-    /* long */
-    public $count;
 
 }

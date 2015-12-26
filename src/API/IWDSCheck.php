@@ -11,13 +11,6 @@
 
 namespace Ouicare\InWebo\API;
 
-class LoginCreateResult {
-    /* string */
-
-    public $err;
-    /* string */
-    public $code;
-    /* long */
-    public $id;
+class IWDSCheck {
 
 }
