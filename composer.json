@@ -13,7 +13,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Ouicare\\InWebo\\": "src/Ouicare/InWebo/"
+            "Ouicare\\InWebo\\": "src"
         }
 
     },
