@@ -82,7 +82,7 @@ use Ouicare\InWebo\API\LoginGetInfoFromLink;
 /**
  * loginGetInfoFromLinkResponse class
  */
-use Ouicare\InWebo\API\LoginGetCodeFromLinkResponse;
+use Ouicare\InWebo\API\LoginGetInfoFromLinkResponse;
 /**
  * loginUpdate class
  */
