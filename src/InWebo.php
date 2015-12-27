@@ -4,7 +4,7 @@
  *
  * @author    Emmanuel NINET
  * @author Anis Marrouchi <anismarrouchi@hotmail.com>
- * @copyright 2014 inWebo Technologies
+ * @copyright 2014 inWebo Technologies and Ouicare
  * @package   InWebo PHP API
  * @license http://http://opensource.org/licenses/mit-license.php MIT
  */
@@ -26,20 +26,27 @@ class InWebo {
     var $apiCertificate;
     var $apiCertificatePassphrase;
     var $authentication;
+    var $wsdlAuthenticationFile = "Authentication.wsdl";
+    var $wsdlAuthenticationPath;
     var $provisioning;
+    var $wsdlProvisioningFile = "Provisioning.wsdl";
+    var $wsdlProvisioningPath;
     var $iwApiBaseUrl;
     var $withErrorTrace;
     var $withRESTResultTrace;
     var $error;
     var $result;
 
-    public function __construct($serviceId, $wsdlProvisioningPath, $wsdlAuthenticationPath, $certPath, $certPassphrase, $iwApiBaseUrl, $withErrorTrace, $withRESTResultTrace) {
+    public function __construct($serviceId, $certPath, $certPassphrase, $iwApiBaseUrl, $withErrorTrace, $withRESTResultTrace) {
+        //TODO: consider refactoring of the paths
+        $this->wsdlProvisioningPath = __DIR__ . "/API/" . $this->wsdlProvisioningFile;
+        $this->wsdlAuthenticationPath = __DIR__ . "/API/" . $this->wsdlAuthenticationFile;
         $this->uid = 0;
         $this->serviceId = $serviceId;
         $this->apiCertificate = $certPath;
         $this->apiCertificatePassphrase = $certPassphrase;
-        $this->authentication = new Authentication($wsdlAuthenticationPath, array('local_cert' => $this->apiCertificate, 'passphrase' => $this->apiCertificatePassphrase));
-        $this->provisioning = new Provisioning($wsdlProvisioningPath, array('local_cert' => $this->apiCertificate, 'passphrase' => $this->apiCertificatePassphrase));
+        $this->authentication = new Authentication($this->wsdlAuthenticationPath, array('local_cert' => $this->apiCertificate, 'passphrase' => $this->apiCertificatePassphrase));
+        $this->provisioning = new Provisioning($this->wsdlProvisioningPath, array('local_cert' => $this->apiCertificate, 'passphrase' => $this->apiCertificatePassphrase));
         $this->iwApiBaseUrl = $iwApiBaseUrl;
         $this->withErrorTrace = $withErrorTrace;
         $this->withRESTResultTrace = $withRESTResultTrace;
