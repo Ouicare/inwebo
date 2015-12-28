@@ -117,11 +117,11 @@ class InWebo {
 
         if (!$output) {
             $this->printError($request_info);
-            return "NOK";
+            return $output;
         } else {
             $result = json_decode($output, true);
             $this->printResult('REST authenticate:', $result);
-            return $result['err'];
+            return $result;
         }
     }
 
