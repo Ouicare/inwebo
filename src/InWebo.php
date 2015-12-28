@@ -121,6 +121,9 @@ class InWebo {
         } else {
             $result = json_decode($output, true);
             $this->printResult('REST authenticate:', $result);
+            if ($result['err'] == 'NOK:no option found') {
+                return false;
+            }
             return $result;
         }
     }
