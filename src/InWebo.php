@@ -336,7 +336,7 @@ class InWebo {
     //Delete a user
     public function loginDelete($loginId) {
         try {
-            $x = new API\loginDelete;
+            $x = new API\LoginDelete;
             $x->userid = $this->uid;
             $x->serviceid = $this->serviceId;
 
